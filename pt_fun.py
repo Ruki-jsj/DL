@@ -2,7 +2,7 @@ import torch
 from torch import nn
 
 
-# jsj123
+# js
 # print(torch.cuda.is_available())
 
 # 返回一个张量，包含了(0,1)的均匀分布中抽取的随机数组
