@@ -3,7 +3,7 @@ from torch import nn
 
 
 class MLP(nn.Module):
-    # 申明带有模型参数的层，这里声明了两个全连接层
+    # 声明带有模型参数的层，这里声明了两个全连接层
     def __init__(self, **kwargs):
         # 调用MLP父类block的构造函数来进行必要的初始化，这样构造的实例可以指定其他的函数
         # 参数params
